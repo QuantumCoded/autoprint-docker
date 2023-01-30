@@ -7,4 +7,4 @@ while inotifywait -e close_write -e create -e moved_to /var/to-print; do
     for DOC in /var/to-print/*; do
         lp -d printer $DOC && rm $DOC
     done
-donehttps://github.com/QuantumCoded/autoprint-docker
+done

@@ -1,5 +1,3 @@
-#! /bin/sh
-
 set -x
 cupsd -f &
 sleep 10
